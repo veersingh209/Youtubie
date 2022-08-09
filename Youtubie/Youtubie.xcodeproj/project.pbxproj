@@ -15,6 +15,9 @@
 		482D9F4A28A2B83200F9E601 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F4928A2B83200F9E601 /* Constants.swift */; };
 		482D9F4D28A2BBEE00F9E601 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F4C28A2BBEE00F9E601 /* Response.swift */; };
 		482D9F4F28A2BC1900F9E601 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F4E28A2BC1900F9E601 /* Video.swift */; };
+		482D9F5228A2C3B600F9E601 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F5128A2C3B600F9E601 /* VideoModel.swift */; };
+		482D9F5428A2C69C00F9E601 /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F5328A2C69C00F9E601 /* VideoPreview.swift */; };
+		482D9F5628A2C85700F9E601 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F5528A2C85700F9E601 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		482D9F4928A2B83200F9E601 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		482D9F4C28A2BBEE00F9E601 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		482D9F4E28A2BC1900F9E601 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		482D9F5128A2C3B600F9E601 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		482D9F5328A2C69C00F9E601 /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
+		482D9F5528A2C85700F9E601 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		78394F49EE6BFE72E4CF5C31 /* Pods-Youtubie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtubie.debug.xcconfig"; path = "Target Support Files/Pods-Youtubie/Pods-Youtubie.debug.xcconfig"; sourceTree = "<group>"; };
 		93EED02450C5B3A3A5495BC9 /* Pods_Youtubie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Youtubie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +70,7 @@
 		482D9F392899D7D600F9E601 /* Youtubie */ = {
 			isa = PBXGroup;
 			children = (
+				482D9F5028A2C3A700F9E601 /* VideoModels */,
 				482D9F4B28A2BBE200F9E601 /* Models */,
 				482D9F4828A2B82100F9E601 /* Helpers */,
 				482D9F3A2899D7D600F9E601 /* YoutubieApp.swift */,
@@ -86,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				482D9F4928A2B83200F9E601 /* Constants.swift */,
+				482D9F5528A2C85700F9E601 /* CacheManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -97,6 +105,15 @@
 				482D9F4E28A2BC1900F9E601 /* Video.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		482D9F5028A2C3A700F9E601 /* VideoModels */ = {
+			isa = PBXGroup;
+			children = (
+				482D9F5128A2C3B600F9E601 /* VideoModel.swift */,
+				482D9F5328A2C69C00F9E601 /* VideoPreview.swift */,
+			);
+			path = VideoModels;
 			sourceTree = "<group>";
 		};
 		7973F92EE0B09D112884A36C /* Pods */ = {
@@ -231,9 +248,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				482D9F4D28A2BBEE00F9E601 /* Response.swift in Sources */,
+				482D9F5228A2C3B600F9E601 /* VideoModel.swift in Sources */,
 				482D9F3D2899D7D600F9E601 /* ContentView.swift in Sources */,
 				482D9F3B2899D7D600F9E601 /* YoutubieApp.swift in Sources */,
+				482D9F5628A2C85700F9E601 /* CacheManager.swift in Sources */,
 				482D9F4A28A2B83200F9E601 /* Constants.swift in Sources */,
+				482D9F5428A2C69C00F9E601 /* VideoPreview.swift in Sources */,
 				482D9F4F28A2BC1900F9E601 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
