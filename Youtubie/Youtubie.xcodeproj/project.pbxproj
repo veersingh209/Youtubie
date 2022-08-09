@@ -12,6 +12,7 @@
 		482D9F3D2899D7D600F9E601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F3C2899D7D600F9E601 /* ContentView.swift */; };
 		482D9F3F2899D7D800F9E601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482D9F3E2899D7D800F9E601 /* Assets.xcassets */; };
 		482D9F422899D7D800F9E601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482D9F412899D7D800F9E601 /* Preview Assets.xcassets */; };
+		482D9F4A28A2B83200F9E601 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482D9F4928A2B83200F9E601 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		482D9F3C2899D7D600F9E601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		482D9F3E2899D7D800F9E601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482D9F412899D7D800F9E601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		482D9F4928A2B83200F9E601 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		78394F49EE6BFE72E4CF5C31 /* Pods-Youtubie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Youtubie.debug.xcconfig"; path = "Target Support Files/Pods-Youtubie/Pods-Youtubie.debug.xcconfig"; sourceTree = "<group>"; };
 		93EED02450C5B3A3A5495BC9 /* Pods_Youtubie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Youtubie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 		482D9F392899D7D600F9E601 /* Youtubie */ = {
 			isa = PBXGroup;
 			children = (
+				482D9F4828A2B82100F9E601 /* Helpers */,
 				482D9F3A2899D7D600F9E601 /* YoutubieApp.swift */,
 				482D9F3C2899D7D600F9E601 /* ContentView.swift */,
 				482D9F3E2899D7D800F9E601 /* Assets.xcassets */,
@@ -74,13 +77,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		482D9F4828A2B82100F9E601 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				482D9F4928A2B83200F9E601 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		7973F92EE0B09D112884A36C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				78394F49EE6BFE72E4CF5C31 /* Pods-Youtubie.debug.xcconfig */,
 				18478DFDCB5360CC16E45F5F /* Pods-Youtubie.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +218,7 @@
 			files = (
 				482D9F3D2899D7D600F9E601 /* ContentView.swift in Sources */,
 				482D9F3B2899D7D600F9E601 /* YoutubieApp.swift in Sources */,
+				482D9F4A28A2B83200F9E601 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
