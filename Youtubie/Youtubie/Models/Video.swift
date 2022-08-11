@@ -30,6 +30,14 @@ struct Video: Decodable {
         case videoId
     }
     
+    init() {
+        self.videoId = "123456789"
+        self.title = "Init Video Title"
+        self.description = "Init video description. Used as place holder for init. Should not be shown in production. Only to be used as initilization or Video."
+        self.thumbnail = "https://i.ytimg.com/vi/9O5PhuW927w/hqdefault.jpg"
+        self.publishedDate = Date()
+    }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         

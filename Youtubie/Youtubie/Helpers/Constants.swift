@@ -11,5 +11,6 @@ class Constants {
     
     static let API_KEY = "AIzaSyAgRrxwbu1IVeDDVGDo_m1hJ7sqRyT6w5U"
     static let API_URL = "https://www.googleapis.com/youtube/v3"
-    static let PLAYLIST_ID = ""
+    static let PLAYLIST_ID = "PLBsP89CPrMeOpKhXiKyXg8AjiConuTXvI"
+    static let YOUTUBE_EMBED_URL = "https://www.youtube.com/embed"
 }
