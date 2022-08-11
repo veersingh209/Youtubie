@@ -12,6 +12,8 @@ struct VideoPlayer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> some UIView {
         let view = WKWebView()
+      
+        view.backgroundColor = UIColor(backgroundColor)
         
         let embedUrlStrign = Constants.YOUTUBE_EMBED_URL + video.videoId
         let url = URL(string: embedUrlStrign)
